@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./Register.css">
+</head>
+<body>
+    <div class="register">
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter Your full name" required>
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required> 
+      
+        <label for="event">Select Event</label>
+        <select name="event" id="event" required>
+            <option value="">select</option>
+            <option value="coding">Coding</option>
+            <option value="quiz">Quiz</option>
+            <option value="game">Game</option>
+            <option value="webdev">Web Development</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
